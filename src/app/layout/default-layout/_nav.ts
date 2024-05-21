@@ -30,7 +30,7 @@ export const navItems: INavData[] = [
     title: true
   },
   {
-    name: 'Base',
+    name: 'BCM',
     url: '/base',
     iconComponent: { name: 'cil-puzzle' },
     children: [
@@ -112,7 +112,7 @@ export const navItems: INavData[] = [
     ]
   },
   {
-    name: 'Buttons',
+    name: 'IC',
     url: '/buttons',
     iconComponent: { name: 'cil-cursor' },
     children: [
@@ -134,7 +134,7 @@ export const navItems: INavData[] = [
     ]
   },
   {
-    name: 'Forms',
+    name: 'CA',
     url: '/forms',
     iconComponent: { name: 'cil-notes' },
     children: [
@@ -181,12 +181,7 @@ export const navItems: INavData[] = [
     ]
   },
   {
-    name: 'Charts',
-    iconComponent: { name: 'cil-chart-pie' },
-    url: '/charts'
-  },
-  {
-    name: 'Icons',
+    name: 'IA',
     iconComponent: { name: 'cil-star' },
     url: '/icons',
     children: [
