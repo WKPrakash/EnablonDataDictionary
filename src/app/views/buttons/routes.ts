@@ -33,6 +33,13 @@ export const routes: Routes = [
           title: 'Dropdowns'
         }
       },
+      {
+        path: 'campaigns',
+        loadComponent: () => import('./campaigns/campaigns.component').then(m => m.CampaignsComponent),
+        data: {
+          title: 'campaigns'
+        }
+      },      
     ]
   }
 ];
