@@ -17,14 +17,40 @@ export const navItems: INavData[] = [
   },
   {
     name: 'BCM',
-    url: '/base',
+    url: '/BCM',
     iconComponent: { name: 'cil-puzzle' },
     children: [
       {
-        name: 'Accordion',
-        url: '/base/accordion',
-        icon: 'nav-icon-bullet'
+        name: 'Events',
+        url: '/BCM/events',
+        icon: 'nav-icon-bullet',
+        children: [
+          {
+            name: 'Incident Management',
+            url: '/BCM/events/incident-tracking',
+            icon: 'nav-icon-bullet',
+            children: [
+              {
+                name: 'Incident Tracking',
+                url: '/BCM/incident-tracking',
+                icon: 'nav-icon-bullet'
+              }
+            ]
+          }
+        ], 
       },
+      {
+        name: 'Business Continuity',
+        url: 'BCM/incident-tracking',
+        icon: 'nav-icon-bullet',
+        children: [
+          {
+            name: 'Crisis',
+            url: '/BCM/crisis',
+            icon: 'nav-icon-bullet'
+          }
+        ]
+      }
     
     ]
   },
