@@ -31,6 +31,10 @@ export const routes: Routes = [
         loadChildren: () => import('./views/buttons/routes').then((m) => m.routes)
       },
       {
+        path: 'BCM',
+        loadChildren: () => import('./views/BCM/routes').then((m) => m.routes)
+      },
+      {
         path: 'campaigns',
         loadChildren: () => import('./views/IC/routes').then((m) => m.routes)
       },
