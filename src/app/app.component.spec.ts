@@ -18,9 +18,9 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'Enablon Data Dictionary'`, () => {
+  it(`should have as title 'Product Catalogue'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('Enablon Data Dictionary');
+    expect(app.title).toEqual('Product Catalogue');
   });
 });
