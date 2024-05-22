@@ -12,7 +12,7 @@ import { iconSubset } from './icons/icon-subset';
   imports: [RouterOutlet]
 })
 export class AppComponent implements OnInit {
-  title = 'Enablon Data Dictionary';
+  title = 'Product Catalogue';
 
   constructor(
     private router: Router,
