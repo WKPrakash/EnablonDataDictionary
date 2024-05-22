@@ -31,6 +31,21 @@ export const routes: Routes = [
         loadChildren: () => import('./views/buttons/routes').then((m) => m.routes)
       },
       {
+        path: 'campaigns',
+        loadChildren: () => import('./views/IC/routes').then((m) => m.routes)
+      },
+
+      {
+        path: 'IA',
+        loadChildren: () => import('./views/IA/routes').then((m) => m.routes)
+      },
+
+      {
+        path: 'CA',
+        loadChildren: () => import('./views/CA/routes').then((m) => m.routes)
+      },
+
+      {
         path: 'forms',
         loadChildren: () => import('./views/forms/routes').then((m) => m.routes)
       },
